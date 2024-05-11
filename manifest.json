@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "permissions": [ "activeTab", "tabs", "scripting" ],
+    "name": "Youtube Playlist Title & Singer & Time Get",
+    "description": "Youtube Playlist Title & Singer & Time Get",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+      }
+}
