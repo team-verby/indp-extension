@@ -3,10 +3,10 @@ var playlistData = [];
 var playlistElements = document.querySelectorAll("#contents > ytmusic-playlist-shelf-renderer > #contents > ytmusic-responsive-list-item-renderer");
 
 // 플레이 리스트 독자
-var playlistTitle = document.querySelector("#header > ytmusic-detail-header-renderer > div > div.metadata.style-scope.ytmusic-detail-header-renderer > h2 > yt-formatted-string")
+var playlistTitle = document.querySelector("#contents > ytmusic-responsive-header-renderer > h2 > yt-formatted-string")
 if (playlistTitle == null) {
     // 플레이 리스트 작성자
-    playlistTitle = document.querySelector("#header > ytmusic-editable-playlist-detail-header-renderer > ytmusic-detail-header-renderer > div > div.metadata.style-scope.ytmusic-detail-header-renderer > h2 > yt-formatted-string")
+    playlistTitle = document.querySelector("#contents > ytmusic-editable-playlist-detail-header-renderer > ytmusic-responsive-header-renderer > h2 > yt-formatted-string")
 }
 playlistTitle = playlistTitle.innerText.trim()
 
